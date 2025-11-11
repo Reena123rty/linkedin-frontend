@@ -1,0 +1,21 @@
+.login-page{display:flex;justify-content:space-between;padding:40px 100px;height:100vh;background:#fff}
+.left-logo{font-size:36px;font-weight:800;letter-spacing:.5px;margin-top:16px}
+.left-logo span{color:#0a66c2}
+.login-box{width:390px;background:#fff;padding:28px;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.login-box h2{font-size:28px;margin-bottom:14px}
+.social-btn{width:100%;border:2px solid #d3d3d3;padding:12px;border-radius:28px;background:#fff;margin-bottom:10px;cursor:pointer}
+.social-btn:hover{background:#f6f6f6}
+.agree-text{font-size:13px;color:#555;margin:6px 0 12px}
+.divider{text-align:center;margin:14px 0;position:relative}
+.divider:before,.divider:after{content:"";position:absolute;top:50%;width:40%;height:1px;background:#e0e0e0}
+.divider:before{left:0}.divider:after{right:0}
+.divider span{padding:0 10px;background:#fff;font-size:14px;color:#666}
+input{width:100%;padding:12px;border:1px solid #ccc;border-radius:8px;margin-bottom:12px}
+.password-wrap{position:relative}
+.show-btn{position:absolute;right:12px;top:12px;cursor:pointer;color:#0a66c2;font-weight:600}
+.forgot{display:block;color:#0a66c2;font-size:14px;margin:-2px 0 8px}
+.remember{display:flex;align-items:center;gap:8px;margin:2px 0 14px}
+.login-btn{width:100%;padding:14px;background:#0a66c2;color:#fff;border:none;border-radius:30px;cursor:pointer;font-size:16px}
+.login-btn:hover{background:#004182}
+.status{margin-top:10px;color:#0a66c2}
+.small{margin-top:10px}
