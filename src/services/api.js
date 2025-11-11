@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // ✅ Correct URL
+  baseURL: "https://linkedin-backend-r464.onrender.com", // 🔥 Render backend URL
 });
 
 export default api;
